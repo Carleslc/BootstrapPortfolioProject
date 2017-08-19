@@ -72,18 +72,18 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 160px;
+  margin-bottom: 0;
 }
 
 .footer,
 footer {
-  position: absolute;
+  position: relative;
+  margin-top: auto;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 160px;
-  background: #444;
+  height: 280px;
+  background: #808080;
   color: white;
   text-shadow: 1px 1px 1px black;
   padding: 40px 0;
